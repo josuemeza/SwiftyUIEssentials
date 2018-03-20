@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'SwiftyUIEssentials_Example' do
+  pod 'SwiftyUIEssentials', :path => '../'
+
+  target 'SwiftyUIEssentials_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
