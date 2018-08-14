@@ -5,6 +5,12 @@
 [![License](https://img.shields.io/cocoapods/l/SwiftyUIEssentials.svg?style=flat)](http://cocoapods.org/pods/SwiftyUIEssentials)
 [![Platform](https://img.shields.io/cocoapods/p/SwiftyUIEssentials.svg?style=flat)](http://cocoapods.org/pods/SwiftyUIEssentials)
 
+SwiftyUIEssentials is a collection of classes and extensions created by simplify the common actions on the iOS apps development.
+
+With this pod you can define shadows, borders and gradients on Interface Builder or programatically and some other actions extended on `UIColor`, `UISearchBar` and  `UIView`
+
+All the functionalities are documented on the [documentation page](http://josuemeza.com/pods/SwiftyUIEssentials/).
+
 ## Example
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
@@ -19,6 +25,8 @@ it, simply add the following line to your Podfile:
 ```ruby
 pod 'SwiftyUIEssentials'
 ```
+
+Note: Cocoapods version 1.5 generates errors between Interface Builder and designable values. It is recommended to use Cocoapods 1.4.
 
 ## Author
 

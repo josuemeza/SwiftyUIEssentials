@@ -1,0 +1,6 @@
+framework module SwiftyUIEssentials {
+  umbrella header "SwiftyUIEssentials-umbrella.h"
+
+  export *
+  module * { export * }
+}

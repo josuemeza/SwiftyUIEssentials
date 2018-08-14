@@ -7,36 +7,19 @@
 #
 
 Pod::Spec.new do |s|
-  s.name             = 'SwiftyUIEssentials'
-  s.version          = '0.1.0'
-  s.summary          = 'A short description of SwiftyUIEssentials.'
-
-# This description is used to generate tags and improve search results.
-#   * Think: What does it do? Why did you write it? What is the focus?
-#   * Try to keep it short, snappy and to the point.
-#   * Write the description between the DESC delimiters below.
-#   * Finally, don't worry about the indent, CocoaPods strips it!
-
-  s.description      = <<-DESC
-TODO: Add long description of the pod here.
-                       DESC
-
-  s.homepage         = 'https://github.com/Josue Meza Peña/SwiftyUIEssentials'
+  s.name                    = 'SwiftyUIEssentials'
+  s.version                 = '0.1.0'
+  s.swift_version           = '3.2'
+  s.summary                 = 'A essential UI extensions'
+  s.description             = 'A UI essential classes and extensions'
+  s.homepage                = 'https://github.com/josuemeza/SwiftyUIEssentials'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
-  s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'Josue Meza Peña' => 'contacto@josuemeza.com' }
-  s.source           = { :git => 'https://github.com/Josue Meza Peña/SwiftyUIEssentials.git', :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
-
-  s.ios.deployment_target = '8.0'
-
-  s.source_files = 'SwiftyUIEssentials/Classes/**/*'
-  
-  # s.resource_bundles = {
-  #   'SwiftyUIEssentials' => ['SwiftyUIEssentials/Assets/*.png']
-  # }
-
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+  s.license                 = { :type => 'MIT', :file => 'LICENSE' }
+  s.author                  = { 'Josue Meza Peña' => 'contacto@josuemeza.com' }
+  s.source                  = { :git => 'https://github.com/josuemeza/SwiftyUIEssentials.git', :tag => s.version.to_s }
+  s.platform                = :ios, '10.0'
+  s.ios.deployment_target   = '10.0'
+  s.frameworks              = 'UIKit'
+  s.source_files            = 'SwiftyUIEssentials/Classes/**/*'
+  s.documentation_url       = 'http://josuemeza.com/pods/SwiftyUIEssentials/'
 end

@@ -1,0 +1,23 @@
+{
+  "name": "SwiftyUIEssentials",
+  "version": "0.1.0",
+  "summary": "A essential UI extensions",
+  "description": "A UI essential classes and extensions",
+  "homepage": "https://github.com/josuemeza/SwiftyUIEssentials",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Josue Meza Peña": "contacto@josuemeza.com"
+  },
+  "source": {
+    "git": "https://github.com/josuemeza/SwiftyUIEssentials.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "SwiftyUIEssentials/Classes/**/*",
+  "frameworks": "UIKit"
+}

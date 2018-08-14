@@ -1,6 +1,11 @@
 # OS X
 .DS_Store
 
+# Some config files to ignore
+.jazzy.yaml
+.ruby-version
+Document.rb
+
 # Xcode
 build/
 *.pbxuser
