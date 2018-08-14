@@ -9,12 +9,12 @@
 /* Begin PBXBuildFile section */
 		121A511901EE0393BBE12303 /* Pods_SwiftyUIEssentials_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A77329C60901504BF3827597 /* Pods_SwiftyUIEssentials_Tests.framework */; };
 		607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD51AFB9204008FA782 /* AppDelegate.swift */; };
-		607FACD81AFB9204008FA782 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD71AFB9204008FA782 /* ViewController.swift */; };
 		607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 607FACD91AFB9204008FA782 /* Main.storyboard */; };
 		607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDC1AFB9204008FA782 /* Images.xcassets */; };
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
 		AB7778DA2E99C000CE1CBF9E /* Pods_SwiftyUIEssentials_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A7E60EB8CB0E148D119B6536 /* Pods_SwiftyUIEssentials_Example.framework */; };
+		FA0DDBEF21236030000EE12B /* SEGradientViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA0DDBEE21236030000EE12B /* SEGradientViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,7 +33,6 @@
 		607FACD01AFB9204008FA782 /* SwiftyUIEssentials_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftyUIEssentials_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		607FACD71AFB9204008FA782 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		607FACDA1AFB9204008FA782 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		607FACDC1AFB9204008FA782 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		607FACDF1AFB9204008FA782 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
@@ -46,6 +45,7 @@
 		A77329C60901504BF3827597 /* Pods_SwiftyUIEssentials_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftyUIEssentials_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A7E60EB8CB0E148D119B6536 /* Pods_SwiftyUIEssentials_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftyUIEssentials_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AFA0615C4317F0AE5993EA0A /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		FA0DDBEE21236030000EE12B /* SEGradientViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SEGradientViewController.swift; sourceTree = "<group>"; };
 		FA2EFE5F21231954004B22D7 /* CHANGELOG.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; name = CHANGELOG.md; path = ../CHANGELOG.md; sourceTree = "<group>"; };
 		FDDE96507D5E3C69D43E2D08 /* Pods-SwiftyUIEssentials_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftyUIEssentials_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SwiftyUIEssentials_Example/Pods-SwiftyUIEssentials_Example.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -94,8 +94,8 @@
 		607FACD21AFB9204008FA782 /* Example for SwiftyUIEssentials */ = {
 			isa = PBXGroup;
 			children = (
+				FA0DDBED2123600A000EE12B /* controller */,
 				607FACD51AFB9204008FA782 /* AppDelegate.swift */,
-				607FACD71AFB9204008FA782 /* ViewController.swift */,
 				607FACD91AFB9204008FA782 /* Main.storyboard */,
 				607FACDC1AFB9204008FA782 /* Images.xcassets */,
 				607FACDE1AFB9204008FA782 /* LaunchScreen.xib */,
@@ -159,6 +159,14 @@
 				0B6356D6B7687C48C096C77C /* Pods-SwiftyUIEssentials_Tests.release.xcconfig */,
 			);
 			name = Pods;
+			sourceTree = "<group>";
+		};
+		FA0DDBED2123600A000EE12B /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				FA0DDBEE21236030000EE12B /* SEGradientViewController.swift */,
+			);
+			path = controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -374,7 +382,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				607FACD81AFB9204008FA782 /* ViewController.swift in Sources */,
+				FA0DDBEF21236030000EE12B /* SEGradientViewController.swift in Sources */,
 				607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
