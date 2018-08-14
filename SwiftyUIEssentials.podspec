@@ -13,7 +13,6 @@ Pod::Spec.new do |s|
   s.summary                 = 'A essential UI extensions'
   s.description             = 'A UI essential classes and extensions'
   s.homepage                = 'https://github.com/josuemeza/SwiftyUIEssentials'
-  # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license                 = { :type => 'MIT', :file => 'LICENSE' }
   s.author                  = { 'Josue Meza Peña' => 'contacto@josuemeza.com' }
   s.source                  = { :git => 'https://github.com/josuemeza/SwiftyUIEssentials.git', :tag => s.version.to_s }
@@ -22,4 +21,5 @@ Pod::Spec.new do |s|
   s.frameworks              = 'UIKit'
   s.source_files            = 'SwiftyUIEssentials/Classes/**/*'
   s.documentation_url       = 'http://josuemeza.com/pods/SwiftyUIEssentials/'
+  # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
 end
