@@ -46,6 +46,7 @@
 		A77329C60901504BF3827597 /* Pods_SwiftyUIEssentials_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftyUIEssentials_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A7E60EB8CB0E148D119B6536 /* Pods_SwiftyUIEssentials_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftyUIEssentials_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AFA0615C4317F0AE5993EA0A /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		FA2EFE5F21231954004B22D7 /* CHANGELOG.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; name = CHANGELOG.md; path = ../CHANGELOG.md; sourceTree = "<group>"; };
 		FDDE96507D5E3C69D43E2D08 /* Pods-SwiftyUIEssentials_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftyUIEssentials_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SwiftyUIEssentials_Example/Pods-SwiftyUIEssentials_Example.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -134,6 +135,7 @@
 			children = (
 				9C26B55BBBC4242836A8355B /* SwiftyUIEssentials.podspec */,
 				AFA0615C4317F0AE5993EA0A /* README.md */,
+				FA2EFE5F21231954004B22D7 /* CHANGELOG.md */,
 				7E984C738601FD9F4FDC413E /* LICENSE */,
 			);
 			name = "Podspec Metadata";

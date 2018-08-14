@@ -1,6 +1,6 @@
 # SwiftyUIEssentials
 
-[![CI Status](http://img.shields.io/travis/Josue Meza Peña/SwiftyUIEssentials.svg?style=flat)](https://travis-ci.org/Josue Meza Peña/SwiftyUIEssentials)
+[![CI Status](http://img.shields.io/travis/josuemeza/SwiftyUIEssentials.svg?style=flat)](https://travis-ci.org/Josue Meza Peña/SwiftyUIEssentials)
 [![Version](https://img.shields.io/cocoapods/v/SwiftyUIEssentials.svg?style=flat)](http://cocoapods.org/pods/SwiftyUIEssentials)
 [![License](https://img.shields.io/cocoapods/l/SwiftyUIEssentials.svg?style=flat)](http://cocoapods.org/pods/SwiftyUIEssentials)
 [![Platform](https://img.shields.io/cocoapods/p/SwiftyUIEssentials.svg?style=flat)](http://cocoapods.org/pods/SwiftyUIEssentials)
