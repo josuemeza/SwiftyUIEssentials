@@ -2,6 +2,14 @@
 
 ## [Unreleased]
 
+## [0.1.2] - 2018-08-16
+
+### Added
+- SEShadow sample.
+
+### Fixed
+- SEShadowView to use with autolayout.
+
 ## [0.1.1] - 2018-08-16
 
 ### Added

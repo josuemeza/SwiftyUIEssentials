@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name                    = 'SwiftyUIEssentials'
-  s.version                 = '0.1.1'
+  s.version                 = '0.1.2'
   s.swift_version           = '3.2'
   s.summary                 = 'A essential UI extensions'
   s.description             = 'A UI essential classes and extensions'

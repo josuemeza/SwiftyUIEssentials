@@ -16,6 +16,7 @@
 		AB7778DA2E99C000CE1CBF9E /* Pods_SwiftyUIEssentials_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A7E60EB8CB0E148D119B6536 /* Pods_SwiftyUIEssentials_Example.framework */; };
 		FA0DDBEF21236030000EE12B /* SEGradientViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA0DDBEE21236030000EE12B /* SEGradientViewController.swift */; };
 		FAC7F9C22125B62C006FE7E6 /* SEBorderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAC7F9C12125B62C006FE7E6 /* SEBorderViewController.swift */; };
+		FAC7F9C42125BFDC006FE7E6 /* SEShadowViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAC7F9C32125BFDC006FE7E6 /* SEShadowViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		FA0DDBEE21236030000EE12B /* SEGradientViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SEGradientViewController.swift; sourceTree = "<group>"; };
 		FA2EFE5F21231954004B22D7 /* CHANGELOG.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; name = CHANGELOG.md; path = ../CHANGELOG.md; sourceTree = "<group>"; };
 		FAC7F9C12125B62C006FE7E6 /* SEBorderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SEBorderViewController.swift; sourceTree = "<group>"; };
+		FAC7F9C32125BFDC006FE7E6 /* SEShadowViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SEShadowViewController.swift; sourceTree = "<group>"; };
 		FDDE96507D5E3C69D43E2D08 /* Pods-SwiftyUIEssentials_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftyUIEssentials_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SwiftyUIEssentials_Example/Pods-SwiftyUIEssentials_Example.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -168,6 +170,7 @@
 			children = (
 				FA0DDBEE21236030000EE12B /* SEGradientViewController.swift */,
 				FAC7F9C12125B62C006FE7E6 /* SEBorderViewController.swift */,
+				FAC7F9C32125BFDC006FE7E6 /* SEShadowViewController.swift */,
 			);
 			path = controller;
 			sourceTree = "<group>";
@@ -385,6 +388,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FAC7F9C42125BFDC006FE7E6 /* SEShadowViewController.swift in Sources */,
 				FA0DDBEF21236030000EE12B /* SEGradientViewController.swift in Sources */,
 				607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */,
 				FAC7F9C22125B62C006FE7E6 /* SEBorderViewController.swift in Sources */,
