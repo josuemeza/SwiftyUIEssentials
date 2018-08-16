@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name                    = 'SwiftyUIEssentials'
-  s.version                 = '0.1.2'
+  s.version                 = '1.0.0'
   s.swift_version           = '3.2'
   s.summary                 = 'A essential UI extensions'
   s.description             = 'A UI essential classes and extensions'
@@ -20,6 +20,6 @@ Pod::Spec.new do |s|
   s.ios.deployment_target   = '10.0'
   s.frameworks              = 'UIKit'
   s.source_files            = 'SwiftyUIEssentials/Classes/**/*'
-  s.documentation_url       = 'http://josuemeza.com/pods/SwiftyUIEssentials/'
+  s.documentation_url       = 'https://josuemeza.com/pods/SwiftyUIEssentials/'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
 end
