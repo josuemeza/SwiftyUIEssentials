@@ -37,26 +37,17 @@ import UIKit
     // MARK: - Public methods
     
     /**
-     **roundOut**
-     
-     Add corner radious to this view.
-     
-     - Parameter radious: Radious value to apply.
-     */
-    public func roundOut(radious: Float) {
-        borderRadious = CGFloat(radious)
-    }
-    
-    /**
      **border**
      
      Set border with color to this view.
      
      - Parameter color: Border color.
      - Parameter width: Border width.
+     - Parameter radious: Border radious
      */
-    public func border(_ color: UIColor, width: CGFloat) {
+    public func border(_ color: UIColor = .clear, width: CGFloat = 0, radious: CGFloat = 0) {
         borderWidth = width
+        borderRadious = radious
         borderColor = color
     }
 

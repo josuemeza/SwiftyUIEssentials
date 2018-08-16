@@ -65,10 +65,8 @@ class SEGradientViewController: UIViewController {
     
     @IBAction func applyAction(_ sender: Any) {
         gradientView.gradient(startColor: startColor, endColor: endColor, startPoint: startPoint, endPoint: endPoint)
-        startPointXTextField.resignFirstResponder()
-        startPointYTextField.resignFirstResponder()
-        endPointXTextField.resignFirstResponder()
-        endPointYTextField.resignFirstResponder()
+        let textFields = [startPointXTextField, startPointYTextField, endPointXTextField, endPointYTextField]
+        textFields.forEach { textField in textField?.resignFirstResponder() }
     }
     
     // MARK: - View controller methods

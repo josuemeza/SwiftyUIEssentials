@@ -1,6 +1,7 @@
 {
   "name": "SwiftyUIEssentials",
-  "version": "0.1.0",
+  "version": "0.1.1",
+  "swift_version": "3.2",
   "summary": "A essential UI extensions",
   "description": "A UI essential classes and extensions",
   "homepage": "https://github.com/josuemeza/SwiftyUIEssentials",
@@ -13,11 +14,12 @@
   },
   "source": {
     "git": "https://github.com/josuemeza/SwiftyUIEssentials.git",
-    "tag": "0.1.0"
+    "tag": "0.1.1"
   },
   "platforms": {
-    "ios": "9.0"
+    "ios": "10.0"
   },
+  "frameworks": "UIKit",
   "source_files": "SwiftyUIEssentials/Classes/**/*",
-  "frameworks": "UIKit"
+  "documentation_url": "http://josuemeza.com/pods/SwiftyUIEssentials/"
 }
