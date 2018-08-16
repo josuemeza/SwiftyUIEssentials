@@ -68,10 +68,16 @@ import UIKit
      
      - Parameter actions: Actions to set on shadow layer.
      */
-    private func shadowDefaults(actions: @escaping () -> Void) {
+    private func shadowDefaults(actions: @escaping () -> Void = {}) {
         layer.masksToBounds = false
         actions()
         layer.shadowPath = UIBezierPath(rect: bounds).cgPath
+    }
+    
+    /// Overrided layout subviews method for apply on autolayout.
+    public override func layoutSubviews() {
+        super.layoutSubviews()
+        shadowDefaults()
     }
 
 }

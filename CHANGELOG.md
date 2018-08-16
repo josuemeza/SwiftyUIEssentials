@@ -4,6 +4,27 @@
 
 ## [Released]
 
+## [1.0.0] - 2018-08-16
+
+### Added
+- Docs for 1.0.0
+
+## [0.1.2] - 2018-08-16
+
+### Added
+- SEShadow sample.
+
+### Fixed
+- SEShadowView to use with autolayout.
+
+## [0.1.1] - 2018-08-16
+
+### Added
+- SEGradientView sample.
+
+### Fixed
+- SEGradientView to use with autolayout.
+
 ## [0.1.0] - 2018-08-14
 
 ### Added
