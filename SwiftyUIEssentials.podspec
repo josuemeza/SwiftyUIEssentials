@@ -20,6 +20,6 @@ Pod::Spec.new do |s|
   s.ios.deployment_target   = '10.0'
   s.frameworks              = 'UIKit'
   s.source_files            = 'SwiftyUIEssentials/Classes/**/*'
-  s.documentation_url       = 'http://josuemeza.com/pods/SwiftyUIEssentials/'
+  s.documentation_url       = 'https://josuemeza.com/pods/SwiftyUIEssentials/'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
 end
