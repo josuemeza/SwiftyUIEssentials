@@ -33,10 +33,10 @@ import UIKit
         }
     }
     
-    /// Inspectable radious for shadow.
-    @IBInspectable public var shadowRadious: CGFloat = 0 {
+    /// Inspectable radius for shadow.
+    @IBInspectable public var shadowRadius: CGFloat = 0 {
         didSet {
-            shadowDefaults { self.layer.shadowRadius = self.shadowRadious }
+            shadowDefaults { self.layer.shadowRadius = self.shadowRadius }
         }
     }
     
@@ -50,13 +50,13 @@ import UIKit
      - Parameter color: Shadow color.
      - Parameter opacity: Shadow opacity.
      - Parameter offset: Shadow offset from element.
-     - Parameter radious: Shadow radious.
+     - Parameter radius: Shadow radius.
      */
-    public func shadow(color: UIColor, opacity: Float, offset: CGSize, radious: CGFloat) {
+    public func shadow(color: UIColor, opacity: Float, offset: CGSize, radius: CGFloat) {
         shadowColor = color
         shadowOpacity = opacity
         shadowOffset = offset
-        shadowRadious = radious
+        shadowRadius = radius
     }
     
     // MARK: - Private methods

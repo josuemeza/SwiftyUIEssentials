@@ -42,14 +42,14 @@ class SEBorderViewController: UIViewController {
     }
     
     @IBAction func applyAction(_ sender: Any) {
-        borderView.border(borderColor, width: borderWidth, radious: borderRadious)
+        borderView.border(color: borderColor, width: borderWidth, radius: borderRadious)
         let textFields = [radiousTextField, widthTextField]
         textFields.forEach { textField in textField?.resignFirstResponder() }
     }
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        borderView.border(.red, width: 5, radious: 20)
+        borderView.border(color: .red, width: 5, radius: 20)
     }
 
 }

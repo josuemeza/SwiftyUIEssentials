@@ -13,9 +13,9 @@ import UIKit
     // MARK: - Inspectable attributes.
     
     /// Inspectable border radious.
-    @IBInspectable public var borderRadious: CGFloat = 0 {
+    @IBInspectable public var borderRadius: CGFloat = 0 {
         didSet {
-            layer.cornerRadius = borderRadious
+            layer.cornerRadius = borderRadius
             clipsToBounds = true
         }
     }
@@ -43,11 +43,11 @@ import UIKit
      
      - Parameter color: Border color.
      - Parameter width: Border width.
-     - Parameter radious: Border radious
+     - Parameter radius: Border radius
      */
-    public func border(_ color: UIColor = .clear, width: CGFloat = 0, radious: CGFloat = 0) {
+    public func border(color: UIColor = .clear, width: CGFloat = 0, radius: CGFloat = 0) {
         borderWidth = width
-        borderRadious = radious
+        borderRadius = radius
         borderColor = color
     }
 
