@@ -52,12 +52,12 @@ class SEShadowViewController: UIViewController {
     }
     
     @IBAction func applyAction(_ sender: Any) {
-        shadowView.shadow(color: shadowColor, opacity: shadowOpacity, offset: shadowOffset, radious: shadowRadious)
+        shadowView.shadow(color: shadowColor, opacity: shadowOpacity, offset: shadowOffset, radius: shadowRadious)
     }
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        shadowView.shadow(color: .red, opacity: 1, offset: CGSize(width: 5, height: 5), radious: 10)
+        shadowView.shadow(color: .red, opacity: 1, offset: CGSize(width: 5, height: 5), radius: 10)
     }
 
 }
