@@ -8,8 +8,8 @@
 
 Pod::Spec.new do |s|
   s.name                    = 'SwiftyUIEssentials'
-  s.version                 = '1.0.1'
-  s.swift_version           = '3.2'
+  s.version                 = '1.0.2'
+  s.swift_version           = '4.0'
   s.summary                 = 'A essential UI extensions'
   s.description             = 'A UI essential classes and extensions'
   s.homepage                = 'https://github.com/josuemeza/SwiftyUIEssentials'
