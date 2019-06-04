@@ -8,6 +8,7 @@ xcode_sdk: iphonesimulator10.0
 # cache: cocoapods
 # podfile: Example/Podfile
 before_install:
+- gem install xcpretty
 - gem install cocoapods # Since Travis is not always on latest version
 - pod install --project-directory=Example
 script:
