@@ -12,5 +12,5 @@ before_install:
 - pod install --project-directory=Example
 script:
 - set -o pipefail
-- travis_retry xcodebuild -workspace Example/SwiftyUIEssentials.xcworkspace -scheme SwiftyUIEssentials-Example -destination "platform=iOS Simulator,name=iPhone X" build-for-testing test | xcpretty
+- travis_retry xcodebuild -workspace Example/SwiftyUIEssentials.xcworkspace -scheme SwiftyUIEssentials-Example -destination 'platform=iOS Simulator,name=iPhone X' build-for-testing test | xcpretty
 - pod lib lint
