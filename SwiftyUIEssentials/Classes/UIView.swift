@@ -17,7 +17,7 @@ public extension UIView {
      - Parameter shouldSave: True to save the screenshot on user photo library. (Default: false)
      - Returns: Captured screenshot.
      */
-    public static func screenshot(_ shouldSave: Bool = false) -> UIImage? {
+    static func screenshot(_ shouldSave: Bool = false) -> UIImage? {
         var screenshotImage: UIImage?
         let layer = UIApplication.shared.keyWindow!.layer
         let scale = UIScreen.main.scale
