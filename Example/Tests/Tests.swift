@@ -1,5 +1,4 @@
 import XCTest
-import SwiftyUIEssentials
 
 class Tests: XCTestCase {
     

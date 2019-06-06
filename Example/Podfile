@@ -1,11 +1,12 @@
 use_frameworks!
 
-target 'SwiftyUIEssentials_Example' do
+def default_pods
   pod 'SwiftyUIEssentials', :path => '../'
+end
 
-  target 'SwiftyUIEssentials_Tests' do
-    inherit! :search_paths
-
-    
-  end
+target 'SwiftyUIEssentials_Example' do
+  default_pods
+end
+target 'SwiftyUIEssentials_Tests' do
+  default_pods
 end

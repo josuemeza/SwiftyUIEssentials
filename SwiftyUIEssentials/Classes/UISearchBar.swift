@@ -12,21 +12,21 @@ public extension UISearchBar {
     // MARK: - Public get attributes
     
     /// Search bar text field accessor.
-    public var textField: UITextField? {
+    var textField: UITextField? {
         get {
             return findTextField(self)
         }
     }
     
     /// Search bar cancel button accesor.
-    public var cancelButton: UIButton? {
+    var cancelButton: UIButton? {
         get {
             return findCancelButton(self)
         }
     }
     
     /// Search bar background image view accessor.
-    public var imageView: UIImageView? {
+    var imageView: UIImageView? {
         get {
             return findImageView(self)
         }
