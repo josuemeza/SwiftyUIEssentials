@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		121A511901EE0393BBE12303 /* Pods_SwiftyUIEssentials_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A77329C60901504BF3827597 /* Pods_SwiftyUIEssentials_Tests.framework */; };
-		1480E9CB22A9701E006680F5 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
 		607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD51AFB9204008FA782 /* AppDelegate.swift */; };
 		607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 607FACD91AFB9204008FA782 /* Main.storyboard */; };
 		607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDC1AFB9204008FA782 /* Images.xcassets */; };
@@ -390,7 +389,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				FAC7F9C42125BFDC006FE7E6 /* SEShadowViewController.swift in Sources */,
-				1480E9CB22A9701E006680F5 /* Tests.swift in Sources */,
 				FA0DDBEF21236030000EE12B /* SEGradientViewController.swift in Sources */,
 				607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */,
 				FAC7F9C22125B62C006FE7E6 /* SEBorderViewController.swift in Sources */,
