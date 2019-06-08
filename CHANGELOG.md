@@ -4,6 +4,11 @@
 
 ## [Released]
 
+## [1.0.2] - 2019-06-07
+
+### Added
+- Support to Swift 5.
+
 ## [1.0.1] - 2018-09-28
 
 ### Added
