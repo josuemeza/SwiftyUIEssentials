@@ -1,5 +1,5 @@
 framework module SwiftyUIEssentials {
-  umbrella header "SwiftyUIEssentials-umbrella.h"
+  umbrella header "SwiftyUIEssentials-iOS12.2-umbrella.h"
 
   export *
   module * { export * }

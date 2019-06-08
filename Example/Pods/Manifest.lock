@@ -1,16 +1,16 @@
 PODS:
-  - SwiftyUIEssentials (0.1.1)
+  - SwiftyUIEssentials (1.0.2)
 
 DEPENDENCIES:
   - SwiftyUIEssentials (from `../`)
 
 EXTERNAL SOURCES:
   SwiftyUIEssentials:
-    :path: ../
+    :path: "../"
 
 SPEC CHECKSUMS:
-  SwiftyUIEssentials: 029aabd1e7961a5599248605f5266df07aa34304
+  SwiftyUIEssentials: c030169658d5b06b4f1191ef5a195e64c144111c
 
-PODFILE CHECKSUM: 8e8f5e1a9a87eb185a22a7d1562bb4e575a01828
+PODFILE CHECKSUM: a3786094494e93035b66b3831af2ba3f1a6fe833
 
-COCOAPODS: 1.4.0
+COCOAPODS: 1.7.0

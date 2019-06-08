@@ -52,6 +52,26 @@
                ReferencedContainer = "container:SwiftyUIEssentials.xcodeproj">
             </BuildableReference>
          </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "1480E9CF22A9777A006680F5"
+               BuildableName = "SwiftyUIEssentials_ExampleUITests.xctest"
+               BlueprintName = "SwiftyUIEssentials_ExampleUITests"
+               ReferencedContainer = "container:SwiftyUIEssentials.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "1480E9DD22A9779F006680F5"
+               BuildableName = "SwiftyUIEssentials_UITests.xctest"
+               BlueprintName = "SwiftyUIEssentials_UITests"
+               ReferencedContainer = "container:SwiftyUIEssentials.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference

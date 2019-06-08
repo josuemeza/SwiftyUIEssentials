@@ -10,3 +10,6 @@ end
 target 'SwiftyUIEssentials_Tests' do
   default_pods
 end
+target 'SwiftyUIEssentials_UITests' do
+  default_pods
+end

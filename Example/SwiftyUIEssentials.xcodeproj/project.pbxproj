@@ -8,6 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		121A511901EE0393BBE12303 /* Pods_SwiftyUIEssentials_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A77329C60901504BF3827597 /* Pods_SwiftyUIEssentials_Tests.framework */; };
+		142D555422AA9C6A00777088 /* SEBorderViewUITest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 142D555322AA9C6A00777088 /* SEBorderViewUITest.swift */; };
+		145470AA22AAA535000CE934 /* XCTestCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 145470A922AAA535000CE934 /* XCTestCase.swift */; };
+		1480E9E122A9779F006680F5 /* SEGradientViewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1480E9E022A9779F006680F5 /* SEGradientViewUITests.swift */; };
+		485966252A719F916FF582CB /* Pods_SwiftyUIEssentials_UITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 15AC79C6628B5F624616BB26 /* Pods_SwiftyUIEssentials_UITests.framework */; };
 		607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD51AFB9204008FA782 /* AppDelegate.swift */; };
 		607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 607FACD91AFB9204008FA782 /* Main.storyboard */; };
 		607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDC1AFB9204008FA782 /* Images.xcassets */; };
@@ -20,6 +24,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		1480E9E322A9779F006680F5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 607FACC81AFB9204008FA782 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 607FACCF1AFB9204008FA782;
+			remoteInfo = SwiftyUIEssentials_Example;
+		};
 		607FACE61AFB9204008FA782 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 607FACC81AFB9204008FA782 /* Project object */;
@@ -30,7 +41,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		04CDEBE8E08983A92180BC34 /* Pods-SwiftyUIEssentials_UITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftyUIEssentials_UITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SwiftyUIEssentials_UITests/Pods-SwiftyUIEssentials_UITests.debug.xcconfig"; sourceTree = "<group>"; };
 		0B6356D6B7687C48C096C77C /* Pods-SwiftyUIEssentials_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftyUIEssentials_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SwiftyUIEssentials_Tests/Pods-SwiftyUIEssentials_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		142D555322AA9C6A00777088 /* SEBorderViewUITest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SEBorderViewUITest.swift; sourceTree = "<group>"; };
+		145470A922AAA535000CE934 /* XCTestCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XCTestCase.swift; sourceTree = "<group>"; };
+		1480E9DE22A9779F006680F5 /* SwiftyUIEssentials_UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftyUIEssentials_UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1480E9E022A9779F006680F5 /* SEGradientViewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SEGradientViewUITests.swift; sourceTree = "<group>"; };
+		1480E9E222A9779F006680F5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		15AC79C6628B5F624616BB26 /* Pods_SwiftyUIEssentials_UITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftyUIEssentials_UITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		332CF1EA70EBF749B2AAA0E2 /* Pods-SwiftyUIEssentials_UITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftyUIEssentials_UITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SwiftyUIEssentials_UITests/Pods-SwiftyUIEssentials_UITests.release.xcconfig"; sourceTree = "<group>"; };
 		5A1815C085C201C60C0F67A1 /* Pods-SwiftyUIEssentials_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftyUIEssentials_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-SwiftyUIEssentials_Example/Pods-SwiftyUIEssentials_Example.release.xcconfig"; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* SwiftyUIEssentials_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftyUIEssentials_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -55,6 +74,14 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		1480E9DB22A9779F006680F5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				485966252A719F916FF582CB /* Pods_SwiftyUIEssentials_UITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		607FACCD1AFB9204008FA782 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -74,12 +101,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1480E9DF22A9779F006680F5 /* SwiftyUIEssentials_UITests */ = {
+			isa = PBXGroup;
+			children = (
+				1480E9E222A9779F006680F5 /* Info.plist */,
+				1480E9E022A9779F006680F5 /* SEGradientViewUITests.swift */,
+				142D555322AA9C6A00777088 /* SEBorderViewUITest.swift */,
+				145470A922AAA535000CE934 /* XCTestCase.swift */,
+			);
+			path = SwiftyUIEssentials_UITests;
+			sourceTree = "<group>";
+		};
 		607FACC71AFB9204008FA782 = {
 			isa = PBXGroup;
 			children = (
 				607FACF51AFB993E008FA782 /* Podspec Metadata */,
 				607FACD21AFB9204008FA782 /* Example for SwiftyUIEssentials */,
 				607FACE81AFB9204008FA782 /* Tests */,
+				1480E9DF22A9779F006680F5 /* SwiftyUIEssentials_UITests */,
 				607FACD11AFB9204008FA782 /* Products */,
 				ECFA03429CF4D7FE55F61C2A /* Pods */,
 				D1FC80257A8372883B01DDA7 /* Frameworks */,
@@ -91,6 +130,7 @@
 			children = (
 				607FACD01AFB9204008FA782 /* SwiftyUIEssentials_Example.app */,
 				607FACE51AFB9204008FA782 /* SwiftyUIEssentials_Tests.xctest */,
+				1480E9DE22A9779F006680F5 /* SwiftyUIEssentials_UITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -150,6 +190,7 @@
 			children = (
 				A7E60EB8CB0E148D119B6536 /* Pods_SwiftyUIEssentials_Example.framework */,
 				A77329C60901504BF3827597 /* Pods_SwiftyUIEssentials_Tests.framework */,
+				15AC79C6628B5F624616BB26 /* Pods_SwiftyUIEssentials_UITests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -161,6 +202,8 @@
 				5A1815C085C201C60C0F67A1 /* Pods-SwiftyUIEssentials_Example.release.xcconfig */,
 				7E39010768EA554D880F4D40 /* Pods-SwiftyUIEssentials_Tests.debug.xcconfig */,
 				0B6356D6B7687C48C096C77C /* Pods-SwiftyUIEssentials_Tests.release.xcconfig */,
+				04CDEBE8E08983A92180BC34 /* Pods-SwiftyUIEssentials_UITests.debug.xcconfig */,
+				332CF1EA70EBF749B2AAA0E2 /* Pods-SwiftyUIEssentials_UITests.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -178,6 +221,26 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		1480E9DD22A9779F006680F5 /* SwiftyUIEssentials_UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1480E9E522A9779F006680F5 /* Build configuration list for PBXNativeTarget "SwiftyUIEssentials_UITests" */;
+			buildPhases = (
+				CA30652DC66B98844D0AEB47 /* [CP] Check Pods Manifest.lock */,
+				1480E9DA22A9779F006680F5 /* Sources */,
+				1480E9DB22A9779F006680F5 /* Frameworks */,
+				1480E9DC22A9779F006680F5 /* Resources */,
+				A34C83A85514165F5A2C449C /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1480E9E422A9779F006680F5 /* PBXTargetDependency */,
+			);
+			name = SwiftyUIEssentials_UITests;
+			productName = SwiftyUIEssentials_UITests;
+			productReference = 1480E9DE22A9779F006680F5 /* SwiftyUIEssentials_UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
 		607FACCF1AFB9204008FA782 /* SwiftyUIEssentials_Example */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 607FACEF1AFB9204008FA782 /* Build configuration list for PBXNativeTarget "SwiftyUIEssentials_Example" */;
@@ -187,7 +250,6 @@
 				607FACCD1AFB9204008FA782 /* Frameworks */,
 				607FACCE1AFB9204008FA782 /* Resources */,
 				E807EDFF497198975877BDAB /* [CP] Embed Pods Frameworks */,
-				96F937608DFA25ABF8AC7E1C /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -207,7 +269,6 @@
 				607FACE21AFB9204008FA782 /* Frameworks */,
 				607FACE31AFB9204008FA782 /* Resources */,
 				436CFC594484E40C4BEE953A /* [CP] Embed Pods Frameworks */,
-				F39FC9E80AF373D21F95A680 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -225,10 +286,16 @@
 		607FACC81AFB9204008FA782 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0830;
+				LastSwiftUpdateCheck = 1020;
 				LastUpgradeCheck = 0940;
 				ORGANIZATIONNAME = CocoaPods;
 				TargetAttributes = {
+					1480E9DD22A9779F006680F5 = {
+						CreatedOnToolsVersion = 10.2.1;
+						DevelopmentTeam = T952CDXLR8;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 607FACCF1AFB9204008FA782;
+					};
 					607FACCF1AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
 						DevelopmentTeam = T952CDXLR8;
@@ -257,11 +324,19 @@
 			targets = (
 				607FACCF1AFB9204008FA782 /* SwiftyUIEssentials_Example */,
 				607FACE41AFB9204008FA782 /* SwiftyUIEssentials_Tests */,
+				1480E9DD22A9779F006680F5 /* SwiftyUIEssentials_UITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		1480E9DC22A9779F006680F5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		607FACCE1AFB9204008FA782 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -288,28 +363,34 @@
 			files = (
 			);
 			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SwiftyUIEssentials_Tests/Pods-SwiftyUIEssentials_Tests-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/SwiftyUIEssentials-iOS10.0/SwiftyUIEssentials.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyUIEssentials.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SwiftyUIEssentials_Tests/Pods-SwiftyUIEssentials_Tests-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SwiftyUIEssentials_Tests/Pods-SwiftyUIEssentials_Tests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		96F937608DFA25ABF8AC7E1C /* [CP] Copy Pods Resources */ = {
+		A34C83A85514165F5A2C449C /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SwiftyUIEssentials_UITests/Pods-SwiftyUIEssentials_UITests-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/SwiftyUIEssentials-iOS12.2/SwiftyUIEssentials.framework",
 			);
-			name = "[CP] Copy Pods Resources";
+			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyUIEssentials.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SwiftyUIEssentials_Example/Pods-SwiftyUIEssentials_Example-resources.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SwiftyUIEssentials_UITests/Pods-SwiftyUIEssentials_UITests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		B178E357E0C11956F3EEEEE9 /* [CP] Check Pods Manifest.lock */ = {
@@ -348,14 +429,36 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
+		CA30652DC66B98844D0AEB47 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SwiftyUIEssentials_UITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
 		E807EDFF497198975877BDAB /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-SwiftyUIEssentials_Example/Pods-SwiftyUIEssentials_Example-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/SwiftyUIEssentials/SwiftyUIEssentials.framework",
+				"${PODS_ROOT}/Target Support Files/Pods-SwiftyUIEssentials_Example/Pods-SwiftyUIEssentials_Example-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/SwiftyUIEssentials-iOS10.0/SwiftyUIEssentials.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
@@ -363,27 +466,22 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SwiftyUIEssentials_Example/Pods-SwiftyUIEssentials_Example-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		F39FC9E80AF373D21F95A680 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SwiftyUIEssentials_Tests/Pods-SwiftyUIEssentials_Tests-resources.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SwiftyUIEssentials_Example/Pods-SwiftyUIEssentials_Example-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		1480E9DA22A9779F006680F5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				142D555422AA9C6A00777088 /* SEBorderViewUITest.swift in Sources */,
+				145470AA22AAA535000CE934 /* XCTestCase.swift in Sources */,
+				1480E9E122A9779F006680F5 /* SEGradientViewUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		607FACCC1AFB9204008FA782 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -406,6 +504,11 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		1480E9E422A9779F006680F5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 607FACCF1AFB9204008FA782 /* SwiftyUIEssentials_Example */;
+			targetProxy = 1480E9E322A9779F006680F5 /* PBXContainerItemProxy */;
+		};
 		607FACE71AFB9204008FA782 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 607FACCF1AFB9204008FA782 /* SwiftyUIEssentials_Example */;
@@ -433,6 +536,61 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		1480E9E622A9779F006680F5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 04CDEBE8E08983A92180BC34 /* Pods-SwiftyUIEssentials_UITests.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = T952CDXLR8;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = SwiftyUIEssentials_UITests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.josuemeza.SwiftyUIEssentials-UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SwiftyUIEssentials_Example;
+			};
+			name = Debug;
+		};
+		1480E9E722A9779F006680F5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 332CF1EA70EBF749B2AAA0E2 /* Pods-SwiftyUIEssentials_UITests.release.xcconfig */;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = T952CDXLR8;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = SwiftyUIEssentials_UITests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.josuemeza.SwiftyUIEssentials-UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SwiftyUIEssentials_Example;
+			};
+			name = Release;
+		};
 		607FACED1AFB9204008FA782 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -609,6 +767,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		1480E9E522A9779F006680F5 /* Build configuration list for PBXNativeTarget "SwiftyUIEssentials_UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1480E9E622A9779F006680F5 /* Debug */,
+				1480E9E722A9779F006680F5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		607FACCB1AFB9204008FA782 /* Build configuration list for PBXProject "SwiftyUIEssentials" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
