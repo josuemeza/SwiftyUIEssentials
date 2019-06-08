@@ -16,7 +16,7 @@ public extension UIColor {
      
      - Returns: UIImage with self color.
      */
-    public func toImage() -> UIImage {
+    func toImage() -> UIImage {
         let rect : CGRect = CGRect(x: 0, y: 0, width: 1, height: 1)
         UIGraphicsBeginImageContext(rect.size)
         let context : CGContext = UIGraphicsGetCurrentContext()!
